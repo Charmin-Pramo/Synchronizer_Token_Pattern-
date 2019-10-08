@@ -35,7 +35,7 @@ if(isset($_POST['fname'], $_POST['lname'], $_POST['csrf_token'])){
 
 	<head>
 		<meta charset="UTF-8">
-		<title>Update user</title>
+		<title>Update user Details</title>
 		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8">
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -52,6 +52,9 @@ if(isset($_POST['fname'], $_POST['lname'], $_POST['csrf_token'])){
 	</head>
 
 <body>
+<right><a href="logoff.php"   class="cancel  btn btn-default" style="float: right;
+    margin-top: 8px;
+    background-color: rosybrown;">Logout</a></right>
 <div class="container-fluid">
 <div class="second">
 <div class="inside">
@@ -68,7 +71,7 @@ if(isset($_POST['fname'], $_POST['lname'], $_POST['csrf_token'])){
 <table class="table1">
 <tr>
 <td><h2> <td><h2 class="title-up"> Update
-User</h2></td></h2></td>
+Details</h2></td></h2></td>
 </tr>
 <tr>
 	<td><label for="fname">First Name</label></td> 
@@ -93,11 +96,9 @@ User</h2></td></h2></td>
 
 <button type="reset" value="Reset" class="cancel">Reset</button>
 
-   <a href="logoff.php"   class="cancel  btn btn-default" style="float: right;
-    margin-top: 8px;
-    background-color: rosybrown;">Logout</a>
+   
 </form>
-    <div>
+    <div class="h2">
 		 <?php
         echo $display_messsge;
         }

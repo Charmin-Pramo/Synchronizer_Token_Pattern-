@@ -1,7 +1,3 @@
-/**
- * 
- */
-
 $(function (){
 	var $csrf_token = $('#csrf-token');
 	var session_id = document.cookie.split(";")[0].split("=")[1];

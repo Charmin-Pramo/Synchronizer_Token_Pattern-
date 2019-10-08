@@ -5,7 +5,7 @@
 		background-size: cover;
 }
 label{
-	font-family:'Raleway',sans-serift !importan;
+	font-family:'Franklin Gothic Medium',Franklin Gothic Medium !importan;
 	color:#FFF;
 	margin-left:10px;	
 }
@@ -13,7 +13,7 @@ h2{
 	color:#FFF;
 	margin:10px 10px 30px 139px;
 	margin-bottom:35px;
-	font-family:'Raleway',sans-serif;
+	font-family:'Franklin Gothic Medium',Franklin Gothic Medium;
 	text-align:center;
 } 
 }
@@ -70,7 +70,7 @@ h2{
 }
 
 .login {
-	background-color:#0080ff;
+	background-color:#ff0000;
 	border-radius:4px;
 	border:none;
 	padding:7px 19px;
@@ -87,7 +87,7 @@ h2{
 }
 
 .cancel {
-	background-color:#4CAF50;
+	background-color:#000000;
 	border-radius:4px;
 	border:none;
 	padding:7px 12px;

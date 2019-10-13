@@ -18,3 +18,5 @@ Download and install PHP for windows. You can refer this post to install PHP 7 i
 Run
 
 If the environment is configured using either xampp or wamp servers, then clone the repo and paste it inside the htdocs folder to run the application.
+
+To learn more about Synchronizer Token Pattern https://charminpramo.blogspot.com/2019/10/synchronizer-token-pattern-why-cross.html.
